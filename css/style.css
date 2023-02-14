@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Sono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+:root{
+    --roboto-mono: 'Roboto Mono', monospace;
+    --sono: 'Sono', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+#nav-bar{
+    max-width: 80vw;
+    min-width: 500px;
+    height: 8vh;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+
+}
+
+.list-bar a{
+   color: white;
+   text-decoration: none;
+   padding: 20px;
+   font-size: 1.1em;
+   font-family: var(--roboto-mono);
+}
+
+/* MAIN / SECTION */
+main{
+    background-color: #000000;
+}
+
+.sec-page1{
+    color: white;
+    max-width: 80vw;
+    min-width: 800px;
+    height: 92vh;
+    margin: auto;
+
+} 
+
+#primeira-page{
+    height: 92vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+   
+}  
+
+#desc-sec{
+    width: 550px;
+    text-align: center;
+}
+
+#desc-sec h1{
+    color: #023e8a;
+    font-size: 5em;
+    font-family: var(--roboto-mono);
+    text-align: start;
+    border-bottom: 1px solid #f1f1f160;
+
+}
+
+#span-h1{
+    color: white;
+    text-shadow: 5px 5px 15px #f1f1f160;
+}
+
+#h2-sub{
+   color: #023e8a;
+    font-size: 4.5em;
+    font-family: var(--roboto-mono);
+    text-align: end;
+}
+
+
+
+
+#sec-page2{
+    height: 100vh;
+    background-color: aqua;
+    
+}
