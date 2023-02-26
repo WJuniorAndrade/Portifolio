@@ -105,6 +105,29 @@ main{
     width: 500px;
 }
 
+/* PAGINA SOBRE MIM  */
+#sec-page2{
+    height: 100vh;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:1200px) and (max-width:1300px){
     #desc-sec h1{
         font-size: 4.2rem;
@@ -130,6 +153,7 @@ main{
 
 
 /* TABLET */
+
 @media (min-width:800px) and (max-width:1000px){
     #nav-bar{
        justify-content: center;
@@ -162,23 +186,3 @@ main{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sec-page2{
-    height: 100vh;
-    background-color: aqua;
-    
-}
